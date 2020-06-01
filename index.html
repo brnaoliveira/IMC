@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>CALCULO DO I.M.C.</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+<body>
+
+  <form name="imcForm" id="imcForm" action="#">
+    <fieldset>
+        <legend>CALCULE SEU IMC</legend>
+    <p>
+    Altura<br/>
+    <input type="number" id="altura" name="altura" max="2.4"/>
+    </p>
+    
+    <p>Peso <br/>
+    <input type="number" id="peso" name="peso" />
+    </p>
+    
+    <p>
+    <label>
+    <input type="radio" name="sexo" value="M" id="sexo_0" />
+    Masculino</label><br/>
+    
+    <label>
+       <input type="radio" name="sexo" value="F" id="sexo_1" /> Feminino
+    </label>
+    </p>
+    
+    <p><button class="btn" onclick="calcula_imc(event)"/> Calcular </button></p>
+    </fieldset>
+    </form>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

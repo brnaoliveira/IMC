@@ -1,0 +1,49 @@
+body { 
+    background-color: #eaaaf7;  
+    margin-left: 0px; 
+    }
+#imcForm {
+    width:400px;
+    margin:20px auto;
+    background:#f1c2fa; 
+    font:18px arial, verdana, helvetica, sans-serif; 
+    /* o tamanho e o tipo da fonte no formulário */
+    
+    border-top:1px solid #f30ad4a9;
+    /* borda superior de 2px solida na cor cinza clara 
+    no formulário */
+    
+    border-left:1px solid #f30ad4a9;
+    /* a borda esquerda do formulário */
+    
+    border-right:1px solid #f30ad4a9; 
+    /* a borda direita do formulário */
+    
+    border-bottom:1px solid #f30ad4a9; 
+    /* a borda inferior do formulário */
+    
+    border-collapse:collapse; 
+    /* retira as bordas duplas nas células da tabela */
+    
+    color:#780396; /* cor para as letras */
+}
+    
+#imcForm fieldset {
+    border: none;
+    box-shadow: 10px 10px 15px rgba(173, 38, 252, 0.3),
+               -10px -10px 15px rgba(233, 132, 253, 0.3);
+}
+    
+#imcForm input[type=number] {
+    font-size:1.3em;
+    width:100%;
+}
+.btn {
+    outline:none;
+    border:none;
+    width:100%;
+    padding:10px;
+    background-color:rgb(175, 21, 175);
+    color:#fff;
+    font-weight:bold;
+}
